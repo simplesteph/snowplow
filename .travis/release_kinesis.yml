@@ -55,7 +55,7 @@ packages:
     version  : "{{ versions.scala_stream_collector }}"
     build_version : "{{ versions.scala_stream_collector }}"
     artifacts:
-      - prefix : "snowplow_stream_collector_"
+      - prefix : "snowplow_scala_stream_collector_"
         suffix : ""
         type   : "zip"
         binary_paths:
